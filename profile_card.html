@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #ECE9E4;
+        }
+
+        .profile-card {
+            width: 400px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        .profile-header {
+            position: relative;
+            width: 100%;
+            height: 150px;
+            background-color: #9C5251;
+        }
+
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            position: absolute;
+            bottom: -80px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .profile-body {
+            padding: 60px 20px 20px;
+            background-color: #FFFFFF;
+        }
+
+        .name {
+            margin-top: 25px;
+            font-size: 24px;
+            color: #9C5251;
+        }
+
+        .title {
+            margin: 0;
+            font-size: 18px;
+            color: #9C5251;
+            font-weight: bold;
+        }
+
+        .description {
+            margin: 10px 0;
+            font-size: 14px;
+            color: #9C5251;
+        }
+
+        .email, .mobile {
+            margin: 10px 0;
+            font-size: 14px;
+            color: #9C5251;
+        }
+
+        .profile-footer {
+            padding: 20px;
+            border-top: 1px solid #eee;
+            background-color: #9C5251;
+        }
+
+        .social-link {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <div class="profile-header">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+        </div>
+        <div class="profile-body">
+            <h2 class="name">Mahadi Hasan</h2>
+            <p class="title">Student and Aspiring Web Developer</p>
+            <p class="description">I am studying Computer Science & Engineering at United International University and learning web development from OSTAD platform.</p>
+            <p class="email">Email: mdmehedihasan2963@gmail.com</p>
+            <p class="mobile">Mobile: +880 1537247119</p>
+        </div>
+        <div class="profile-footer">
+            <a href="https://www.facebook.com/missingboy.mehedi" class="social-link">Facebook</a>
+            <a href="#" class="social-link">Twitter</a>
+            <a href="https://github.com/Mahadi2963" class="social-link" target="_blank">GitHub</a>
+        </div>
+    </div>
+</body>
+</html>
